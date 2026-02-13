@@ -5,7 +5,7 @@
 # Date:11/02/2026
 
 print("--- Extracting Words from Text File ---\n")
-with open("sample.txt","r") as file:
+with open("story.txt","r") as file:
     content = file.read()
     words = content.split()
     length = int(input("Enter Length of words: "))
@@ -20,6 +20,7 @@ with open("sample.txt","r") as file:
     print("Words with length",length, "are:",result)
 
     
+
 
 
 
